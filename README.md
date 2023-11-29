@@ -5,7 +5,10 @@ To reproduce all results run 'Run_Analysis_and_Plots.R'. The directory is automa
 
 Outputs of the simulation for normal and binomial outcomes are included for convenience.
 
+# Session Info
 
+```r
+sessionInfo()
 
 R version 4.2.0 (2022-04-22)
 Platform: x86_64-apple-darwin17.0 (64-bit)
@@ -30,3 +33,4 @@ loaded via a namespace (and not attached):
 [25] carData_3.0-5     farver_2.1.1      purrr_1.0.2       tidyr_1.3.0       car_3.1-2         magrittr_2.0.3    scales_1.2.1      backports_1.4.1  
 [33] abind_1.4-5       colorspace_2.1-0  ggsignif_0.6.4    labeling_0.4.3    quadprog_1.5-8    utf8_1.2.3        stringi_1.7.12    munsell_0.5.0    
 [41] broom_1.0.5       crayon_1.5.2 
+```
