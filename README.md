@@ -6,7 +6,7 @@ To reproduce all results run 'Run_Analysis_and_Plots.R'. The directory is automa
 Outputs of the simulation for normal and binomial outcomes are included for convenience.
 
 
-sessionInfo()
+
 R version 4.2.0 (2022-04-22)
 Platform: x86_64-apple-darwin17.0 (64-bit)
 Running under: macOS Monterey 12.5.1
