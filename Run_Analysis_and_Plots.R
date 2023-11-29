@@ -10,7 +10,7 @@ library(BB)
 
 ncores=5
 
-dir.out='~/'
+dir.out=paste0(getwd(),"/")
 source(paste0(dir.out,"Design_Functions_bound_R1_1.R"))
 source(paste0(dir.out,"design_bound_R1_1.R"))
 
