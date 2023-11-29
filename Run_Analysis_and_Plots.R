@@ -70,15 +70,23 @@ save(oc, file=paste0(dir.out,"binomial_sens_bound_R1.RData",sep=""))
 source(paste0(dir.out,"Graphs_R1.R"))
 
 #Designs & Sensitivity analyses
+
+#Produces Figure 2 ('normal'), Figure 3 ('normal_SampleSize'), and Figure 4 ('normal_Sensitivity') in the main article
 plots.design(outcome='normal',dir.out=dir.out)
+
+#Produces Supplementary Figures S1 ('binomial'), S2 ('binomial_SampleSize'), and S3 ('binomial_Sensitivity')
 plots.design(outcome='binomial',dir.out=dir.out)
 
-#Frequentist risk
+#Frequentist risk - Figure 1 ('risk_ex') in the main article
 plot.fr(dir.out=dir.out)
 
 # Case study results and plots ---------------------------------------------
 
 source(paste0(dir.out,"case_study.R"))
+
+#Produces Figure 5 ('CaseStudy_OCs0.15') in the main text and Table 2 results 
 designRunDataEx(dir.out=dir.out,alpha.up=0.15,bound=TRUE)
+
+#Produces Supplementary Figure S4 ('CaseStudy_OCs1') and S5 ('CaseStudy_Weight1'), and Table 2 results for the unbounded situation
 designRunDataEx(dir.out=dir.out,alpha.up=1,bound=FALSE)
 
